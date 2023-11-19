@@ -20,6 +20,7 @@ tags:
   description: Operations dependent on third party service.
 schemes:
 - http
+- https
 paths:
   /{type}/get_login/:
     get:
