@@ -12,7 +12,7 @@ info:
     name: Private License
     url: https://bookstore.qacurry.com/
 host: bookstore.qacurry.com
-basePath: /api
+basePath: /
 tags:
 - name: Internal calls
   description: Operations available to regular development, integration, test teams.
