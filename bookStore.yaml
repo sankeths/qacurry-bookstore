@@ -11,8 +11,8 @@ info:
   license:
     name: Private License
     url: https://bookstore.qacurry.com/
-host: https://bookstore.qacurry.com
-basePath: /api/
+host: bookstore.qacurry.com
+basePath: /api
 tags:
 - name: Internal calls
   description: Operations available to regular development, integration, test teams.
