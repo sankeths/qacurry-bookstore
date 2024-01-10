@@ -24,7 +24,7 @@ paths:
   /{type}/get_login/:
     get:
       tags:
-      - Internal calls
+      - Application APIs
       description: Login to user account
       consumes:
       - application/json
@@ -49,7 +49,7 @@ paths:
   /{type}/get_products/:
     get:
       tags:
-      - Internal calls
+      - Application APIs
       description: Get list of all products
       consumes:
       - application/json
@@ -74,7 +74,7 @@ paths:
   /{type}/get_orders/:
     get:
       tags:
-      - Internal calls
+      - Application APIs
       description: Get list of all orders for the user
       consumes:
       - application/json
@@ -99,7 +99,7 @@ paths:
   /{type}/post_order/:
     post:
       tags:
-      - Internal calls
+      - Application APIs
       description: Get list of all orders for the user
       consumes:
       - application/json
@@ -132,7 +132,7 @@ paths:
   /{type}/get_order/:
     get:
       tags:
-      - Internal calls
+      - Application APIs
       description: Get order details
       consumes:
       - application/json
@@ -162,7 +162,7 @@ paths:
   /service_creditcard.php:
     post:
       tags:
-      - External calls
+      - Payment API
       description: External Service to make Creditcard payments
       consumes:
       - application/json
