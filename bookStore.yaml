@@ -159,7 +159,7 @@ paths:
               $ref: '#/definitions/inline_response_200_4'
       security:
       - basic: []
-  /shoppingcart/service_creditcard.php:
+  /service_creditcard.php:
     post:
       tags:
       - External calls
