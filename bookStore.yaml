@@ -100,7 +100,7 @@ paths:
     post:
       tags:
       - Application APIs
-      description: Get list of all orders for the user
+      description: Make a new order using API
       consumes:
       - application/json
       produces:
@@ -171,7 +171,7 @@ paths:
       parameters:
       - in: body
         name: POSTDATA
-        description: Creates a new employee in DB
+        description: Adds a payment to order.
         required: false
         schema:
           $ref: '#/definitions/POSTDATA_1'
@@ -272,7 +272,7 @@ definitions:
         description: Users email
       phone:
         type: integer
-        example: 9482517924
+        example: 112233
         description: users phone number
       address:
         type: string
