@@ -4,7 +4,7 @@ info:
   description: |
     QACurry BookStore OpenAPI
   version: 1.0.0
-  title: QACurry BookStore v1
+  title: QACurry BookStore v
   termsOfService: https://bookstore.qacurry.com/
   contact:
     email: hello@qacurry.com
